@@ -11,19 +11,18 @@ public class Main {
     public static void main(String[] args) {
         int countsOfCats = 6;
         Cat[] cat = new Cat[countsOfCats];
-        Plate plate = new Plate(10);
+        Plate plate = new Plate(15);
         plate.info();
         for (int i = 0; i < countsOfCats; i++) {
             cat[i] = new Cat(TestData.generateName(), TestData.generateAppetite(countsOfCats));
 
         }
+
         for(Cat c :cat){
             c.eat(plate);
             c.info();
             plate.info();
         }
-        plate.setFood(20);
-        plate.addFood(15);
-        plate.info();
+
     }
 }

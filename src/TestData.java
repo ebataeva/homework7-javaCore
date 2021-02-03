@@ -2,7 +2,7 @@ import java.util.BitSet;
 import java.util.Random;
 
 public class TestData {
-    public static String[] names = {"Муся", "Пуся", "Хвостик", "Зефирка", "Глаша", "Матильда", "Лапочка", "Ксюша", "Маша"};
+    public static String[] names = {"Муся", "Пуся", "Хвостик", "Зефирка", "Матильда", "Лапочка", "Ксюша", "Маша"};
     public static Random rand = new Random();
 
 
